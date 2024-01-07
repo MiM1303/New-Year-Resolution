@@ -27,6 +27,9 @@ header .banner-container{
 
 .banner-description{
     margin-bottom: 54px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .btn-primary{
@@ -35,17 +38,18 @@ header .banner-container{
     color: white;
     border: 0px;
     padding: 20px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
 /* SECTION-1 STYLES */
 
-.section-1-img {
+/* .section-1-img {
     border-radius: 100%;
-background: rgba(241, 91, 34, 0.20);
-
-
-} 
+    background: rgba(241, 91, 34, 0.20);
+}  */
 
 .section-1-container{
     width: 75%;
@@ -54,5 +58,37 @@ background: rgba(241, 91, 34, 0.20);
     align-items: center;
     gap: 130px;
     margin: 0 auto;
+}
+
+.section-1-container ul{
+    list-style-type:none ;
+}
+
+ul li::before {  
+        font-family: 'FontAwesome';
+        content: '\f00c';
+        /* margin:0 5px 0 -15px; */
+        color: rgb(44, 201, 136);
+        padding: 0 10px 0 0;
+}
+
+.section-1-content h4{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.section-1-content p
+{   color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.section-1-content ul{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
 }
 
